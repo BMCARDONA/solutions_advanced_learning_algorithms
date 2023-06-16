@@ -28,4 +28,4 @@ def compute_entropy(y):
         entropy = -1 * p_1 * np.log2(p_1) - (1 - p_1) * np.log2(1 - p_1)        
     ### END CODE HERE ###        
     
-    return entropy
+    return entropy  
