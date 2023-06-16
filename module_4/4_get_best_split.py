@@ -28,7 +28,6 @@ def get_best_split(X, y, node_indices):
         if curr_information_gain > highest_information_gain:
             highest_information_gain = curr_information_gain
             best_feature = i
-            
     ### END CODE HERE ##    
    
     return best_feature
